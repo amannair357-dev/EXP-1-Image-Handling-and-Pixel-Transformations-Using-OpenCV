@@ -35,7 +35,8 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 - **Register Number:** 212225240008
 
   ### Ex. No. 01
-
+  
+~~~python
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -201,7 +202,7 @@ plt.imshow(merged_color)
 plt.title('Merged HSV')
 
 plt.show()
-
+~~~
 
 ## Output:
 - **i)** Read and Display an Image.  
